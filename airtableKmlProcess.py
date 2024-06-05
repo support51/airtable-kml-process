@@ -12,12 +12,12 @@ import requests
 import csv
 import os
 
-personal_access_token = os.getenv('personal_access_token')
+api_key = os.getenv('personal_access_token')
 
 base_id = 'app9gm7SIi6Aa6jK7'
 table_name = 'tblGdZJH7xvmsomnx'
 
-api_key = personal_access_token
+# api_key = personal_access_token
 url = f'https://api.airtable.com/v0/{base_id}/{table_name}'
 headers = {'Authorization': f'Bearer {api_key}'}
 
