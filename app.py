@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-from airtableKmlProcess import process_airtable_and_kml
+# from airtableKmlProcess import process_airtable_and_kml
 app = Flask(__name__)
 
 
